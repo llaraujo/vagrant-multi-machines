@@ -1,5 +1,5 @@
 # Vagrant Multi Machines
-Vagrant environment for supporting multiple machines with external config in JSON
+Vagrant environment for supporting multiple machines with Hostmanager and external config in JSON
 
 ## Dependencies
 * [Ruby](https://www.ruby-lang.org/)
