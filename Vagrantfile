@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
 			conf.vm.box_url = machine_data['box_url']
 
 			## hostmanager
-	    conf.vm.provision :hostmanager
+			conf.vm.provision :hostmanager
 			conf.hostmanager.enabled = true
 			conf.hostmanager.manage_host = true
 			conf.hostmanager.ignore_private_ip = false
@@ -31,9 +31,9 @@ Vagrant.configure("2") do |config|
 			conf.hostmanager.aliases = machine_data['aliases']
 
 			conf.vm.provider :virtualbox do |vb|
-        vb.customize ["modifyvm", :id, "--memory", machine_data['memory']]
-        vb.customize ["modifyvm", :id, "--name", machine_name]
-      end
+				vb.customize ["modifyvm", :id, "--memory", machine_data['memory']]
+				vb.customize ["modifyvm", :id, "--name", machine_name]
+			end
 
 		end
 
