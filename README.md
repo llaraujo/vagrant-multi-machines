@@ -15,18 +15,14 @@ Vagrant environment for supporting multiple machines with Hostmanager and extern
 ## Instructions:
 
 1. Clone this project:
-
 ```
 git clone https://github.com/llaraujo/vagrant-multi-machines.git
 ```
-
 2. Install Ruby
 3. Type in terminal:
-
 ```
 gem update --system
 ```
-
 4. Install librarian-chef
 5. Install Vagrant
 6. Install Vagrant Plugins:
@@ -35,14 +31,10 @@ gem update --system
 	* in terminal: ```vagrant plugin install vagrant-omnibus```
 	* in terminal: ```vagrant plugin install vagrant-vbguest```
 7. Install Virtual Box
-
-8. Install cookbooks with librarian-chef, in folder project with terminal:
-
-```librarian-chef install```
-
+8. Install cookbooks with librarian-chef, in folder project:
+	* in terminal: ```librarian-chef install```
 9. To running local machine:
-
-```vagrant up```
+	* in terminal: ```vagrant up```
 
 ## Contributing
 
