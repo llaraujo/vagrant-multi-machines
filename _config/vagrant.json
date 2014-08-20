@@ -1,0 +1,71 @@
+{
+	"machines": {
+		"vagrant-uol-box":	{
+			"name": "vagrant-uol-box",
+			"box": "precise64",
+			"box_url": "http://files.vagrantup.com/precise64.box",
+			"memory": 512,
+			"cpus": 2,
+			"cpuexecutioncap": "50",
+			"host": "static.com.br",
+			"ip": "11.11.11.0",
+			"aliases": "",
+			"ports": [
+				{
+					"host": 2203,
+					"guest": 22,
+					"id": "ssh"
+				}
+			],
+			"provider": {
+
+				"aws": {
+					"active": 						false,
+
+					"ami": 									"",
+					"region": 							"",
+					"instance_type": 				"",
+					"security_groups":			[],
+					"access_key_id": 				"",
+					"secret_access_key":		"",
+					"keypair_name": 				"",
+					"ssh": {
+						"username": 					"",
+						"private_key_path": 	""
+					}
+				},
+
+				"chef": {
+
+					"active":	true,
+
+					"recipes": [
+						"apt",
+						"chef-client"
+					],
+
+					"json": {
+
+					}
+
+				},
+
+				"shell": {
+					"root": {
+						"active": true,
+
+						"id": 		"update",
+						"file": 	"_config/provider/shell/provision.sh"
+					},
+					"vagrant": {
+						"active": false,
+
+						"id": 		"",
+						"file": 	""
+					}
+				}
+
+			}
+		}
+	}
+}
