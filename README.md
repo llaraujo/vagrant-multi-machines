@@ -14,15 +14,9 @@ Vagrant environment for supporting multiple machines with Hostmanager and extern
 
 ## Instructions:
 
-1. Clone this project:
-```
-git clone https://github.com/llaraujo/vagrant-multi-machines.git
-```
+1. Clone this project: ```git clone https://github.com/llaraujo/vagrant-multi-machines.git```
 2. Install Ruby
-3. Type in terminal:
-```
-gem update --system
-```
+3. Type in terminal: ```gem update --system```
 4. Install librarian-chef
 5. Install Vagrant
 6. Install Vagrant Plugins:
