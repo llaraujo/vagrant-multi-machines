@@ -32,7 +32,7 @@ Vagrant environment for supporting multiple machines with Hostmanager and extern
 
 ## Contributing
 
-If you want to help, please read the [Contributing](https://github.com/eduardolundgren/dotfiles/blob/master/CONTRIBUTING.md) guide first.
+If you want to help, please read the [Contributing](https://github.com/llaraujo/vagrant-multi-machines/blob/master/CONTRIBUTING.md) guide first.
 
 ## License
 
