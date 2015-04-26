@@ -1,7 +1,7 @@
 {
 	"machines": {
-		"vagrant-uol-box":	{
-			"name": "vagrant-uol-box",
+		"vagrant-box":	{
+			"name": "vagrant-box",
 			"box": "precise64",
 			"box_url": "http://files.vagrantup.com/precise64.box",
 			"memory": 512,
